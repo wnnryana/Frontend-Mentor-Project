@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: "Figtree";
+    font-size: 16px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    width: 100%;
+    max-width: 300px;
+    padding: 1.5rem;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 5px 5px hsl(0, 0%, 7%);
+}
+
+img {
+   display: block;
+   margin: auto;
+   width: 100%;
+   border-radius: 10px;
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    width: 25%;
+    height: 7%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.learning p {
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.p-container {
+    margin-top: 23px;
+    line-height: 0.8;
+    color: hsl(0, 0%, 42%);
+    font-size: 14px;
+}
+
+.profile img {
+    width: 40px;
+    margin: 20px 0;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+span {
+    font-weight: 800;
+}
+
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center; 
+    margin: 20px 0;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
