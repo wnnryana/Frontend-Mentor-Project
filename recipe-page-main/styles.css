@@ -1,0 +1,157 @@
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Outfit';
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 330px;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 330px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    margin: 10px 0;
+    font-size: 23px;
+}
+
+p {
+    color: hsl(30, 10%, 34%);
+    font-size: 9.5px;
+}
+
+.prepare-time-container {
+    background-color: hsl(330, 100%, 98%);
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 310px;
+    border-radius: 10px;
+    margin: 20px 0 0 5px;
+}
+
+.prepare-time-container h4 {
+    color: hsl(332, 51%, 32%);
+    margin: 5px 0 0 15px;
+}
+
+.prepare-time-container ul {
+    line-height: 25px;
+    color: hsl(30, 10%, 34%);
+    margin: 10px 0 0 -5px;
+    font-size: 12px;
+}
+
+.prepare-time-container li {
+    padding-left: 12px;
+}
+
+.ingredients-container h3 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    margin-bottom: 0;
+}
+
+.ingredients-container ul {
+    line-height: 23px;
+    color: hsl(30, 10%, 34%);
+    font-size: 10px;
+    margin: 10px 0 20px -23px;
+}
+
+.ingredients-container li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients-container li {
+    padding-left: 12px;
+}
+
+.instructions-container h3 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+}
+
+.instructions-container ol {
+    color: hsl(30, 10%, 34%);
+    font-size: 10px;
+}
+
+.instructions-container li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.instructions-container li {
+    padding: 0px 0 6px 10px;
+}
+
+.instructions-container ol {
+    margin: 0 0 0 -23px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.nutrition-container h3 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+}
+
+.nutrition-container td:first-child {
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition-container td:last-child {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+
+}
+
+.nutrition-container table {
+   width: 100%;
+   border-collapse: collapse;
+   table-layout: fixed;
+   font-size: 10px;
+    
+}
+
+.nutrition-container tr:not(:last-child) td {
+    border-bottom:  1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition-container td {
+    padding: 10px 40px 10px 40px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid hsl(30, 18%, 87%);
+}
+
